@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="all" name="VmController">
+	<property name="projectName" value="VmController"/>
+	<property environment="env"/>
+	<property name="runnerRoot" value="${env.RUNNER_ROOT}"/>
+	<property name="buildFilesDir" value="${runnerRoot}/dev"/>
+	<import file="${buildFilesDir}/buildHelper.xml"/>
+	<copy todir="${env.RUNNER_ROOT}/lib/scripts">
+		<fileset dir="./scripts"/>
+	</copy>
+</project>

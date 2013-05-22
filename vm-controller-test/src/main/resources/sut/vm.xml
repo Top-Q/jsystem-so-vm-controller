@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sut validators="">
+    <vm>
+        <class>com.topq.vm.VM</class>
+		<setup>
+	        <class>com.topq.vm.Setup</class>
+	        <virtualCenter>
+	            <class>com.topq.vm.VirtualCenter</class>
+	            <host>172.16.27.220</host>
+	            <username>root</username>
+	            <password>password</password>
+	        </virtualCenter>
+	        <perlToolkit>
+	            <class>com.topq.vm.PerlToolkit</class>
+	        </perlToolkit>
+	    </setup>
+    </vm>
+</sut>
